@@ -1,5 +1,37 @@
 /* color verde del nav y el formulario (o puedo borrar el bg-color de la clase del nav) */
-.greenColorNav , .greenColorForm{
+/* .greenColorNav , .greenColorForm{
     background-color: #28A745 !important;
+} */
+
+body{
+    font-family: 'Roboto';
+}
+
+nav{
+    background-color: #28A745
+}
+
+@media (max-width:576px){
+    nav div a img{
+        width: 6rem;
+    }
+}
+
+@media (max-width:576px){
+    nav div a img{
+        width: 7rem;
+    }
+}
+
+.fontStyleGrey{
+    color: #707070;
+    padding-right: 5px;
+}
+
+.fontStyleGreen{
+    color: #28A745;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
 }
 
