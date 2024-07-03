@@ -11,27 +11,67 @@ nav{
     background-color: #28A745
 }
 
+.estilosProm{
+    color: #28A745;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.estilosPrecioStandard{
+ color: #707070;   
+}
+
+.colorForm{
+    background-color: #28A745;
+}
+
+.colorFormTitle{
+    color: #fff;
+}
+
+/* .fontStyleGrey{
+    color: #707070;
+    padding-right: 5px;
+} */
+
+/* .fontStyleGreen{
+    color: #28A745;
+    font-size: larger;
+    font-weight: 500;
+    font-style: italic;
+} */
+
+/* .responsiveGrid{
+    margin: 40px;
+} */
+
+
+/* media queries cambio de tamaña del logo vista movil */
 @media (max-width:576px){
     nav div a img{
         width: 6rem;
     }
 }
 
-@media (max-width:576px){
+/* media queries cambio de tamaña del logo vista escritorio */
+@media (min-width:576px){
     nav div a img{
         width: 7rem;
     }
 }
 
-.fontStyleGrey{
-    color: #707070;
-    padding-right: 5px;
-}
+/* media querie columnas y grid responsivo 768 es mediano generalmente desde 0 a 768 */
+/* @media (max-width:768px){
+    .responsiveGrid{
+        width: 18rem;    
+    }
 
-.fontStyleGreen{
-    color: #28A745;
-    font-size: larger;
-    font-weight: 500;
-    font-style: italic;
-}
+} */
+ 
 
+/* 576 es pequeño (toma a ambos a col sm y col md hasta adelante) */
+@media (max-width:576px){
+    .anchoCentrado{
+        width: 18rem;    
+    }
+}
